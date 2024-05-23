@@ -1,10 +1,9 @@
 import { join } from "path";
 
 const templateGlob = new Bun.Glob("**/*.ts");
-// const cwd = import.meta.dir + "/templates";
+
 const templatesDir = new URL("templates", import.meta.url).pathname;
 const projectRoot = new URL("..", import.meta.url).pathname;
-console.log({ templatesDir, projectRoot });
 
 type TemplateRenderer = (data: any) => Promise<string> | string;
 
@@ -21,7 +20,11 @@ for await (const file of templateGlob.scan({
         continue;
     }
     const data = { name: "John Doe" };
-    const result = await renderer(data);
+
+    let result = await renderer(data);
+    if (file.endsWith(".md.ts")) {
+        result = `<!-- This file was automatically generated. Do not edit it directly. -->\n${result}`;
+    }
     const output = join(projectRoot, file.replace(/\.ts$/, ""));
 
     await Bun.write(output, result);
