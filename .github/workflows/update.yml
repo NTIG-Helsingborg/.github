@@ -14,17 +14,15 @@ jobs:
             - uses: actions/checkout@v4
             - uses: oven-sh/setup-bun@v1
 
-            # Open the generator directory
-            - name: Open the generator directory
-              run: cd generator
-
             # Install dependencies
             - name: Install dependencies
               run: bun install
+              working-directory: ./generator
 
             # Run the generator
             - name: Run the generator
               run: bun start
+              working-directory: ./generator
 
             # Commit the changes
             - uses: EndBug/add-and-commit@v9
