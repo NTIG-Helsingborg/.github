@@ -3,7 +3,7 @@ import { join } from "path";
 const templateGlob = new Bun.Glob("**/*.ts");
 
 const templatesDir = new URL("templates", import.meta.url).pathname;
-const projectRoot = new URL("..", import.meta.url).pathname;
+const projectRoot = new URL("../..", import.meta.url).pathname;
 
 type TemplateRenderer = (data: any) => Promise<string> | string;
 

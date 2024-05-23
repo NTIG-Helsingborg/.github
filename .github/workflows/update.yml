@@ -3,8 +3,8 @@ name: Build markdown files
 on:
     workflow_dispatch:
     schedule:
-        # Runs every 12 hours
-        - cron: "0 */12 * * *"
+        # Runs every midnight
+        - cron: "0 0 * * *"
 
 jobs:
     build:
@@ -17,12 +17,12 @@ jobs:
             # Install dependencies
             - name: Install dependencies
               run: bun install
-              working-directory: ./generator
+              working-directory: ./.github/generator
 
             # Run the generator
             - name: Run the generator
               run: bun start
-              working-directory: ./generator
+              working-directory: ./.github/generator
 
             # Commit the changes
             - uses: EndBug/add-and-commit@v9
