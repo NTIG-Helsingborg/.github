@@ -25,6 +25,6 @@ export default async function (answers: any) {
 ## Årets TE4 projekt
 ${repoList}
 
-[Tidigare år](https://github.com/NTIG-Helsingborg/.github/TE4/projects.md)
+[Tidigare år](https://github.com/NTIG-Helsingborg/.github/blob/main/TE4/projects.md)
 `;
 }
