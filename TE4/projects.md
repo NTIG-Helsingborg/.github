@@ -10,6 +10,7 @@
 - [TE4_23-24_snakes-ladders](https://github.com/NTIG-Helsingborg/TE4_23-24_snakes-ladders)
 - [TE4_23-24_CosmicHub](https://github.com/NTIG-Helsingborg/TE4_23-24_CosmicHub)
 - [TE4_23-24_Gamehub](https://github.com/NTIG-Helsingborg/TE4_23-24_Gamehub)
+- [TE4_23-24_Somnium](https://github.com/NTIG-Helsingborg/TE4_23-24_Somnium) - Game Project for TE4
 - [TE4_23-24_MagicMender](https://github.com/NTIG-Helsingborg/TE4_23-24_MagicMender)
 - [TE4_23-24_MickeyEmail](https://github.com/NTIG-Helsingborg/TE4_23-24_MickeyEmail) - Skickar email till personer efter visst tidintervall
 - [TE4_23-24_APL-Bok](https://github.com/NTIG-Helsingborg/TE4_23-24_APL-Bok)
