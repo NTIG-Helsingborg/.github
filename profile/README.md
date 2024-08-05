@@ -4,6 +4,7 @@
 # NTI Gymnasiet Helsingborg
 
 ## Årets TE4 projekt
-
+- [TE4_24-25_Testar](https://github.com/NTIG-Helsingborg/TE4_24-25_Testar) - testar branch namn
+- [TE4_24-25_Blabar](https://github.com/NTIG-Helsingborg/TE4_24-25_Blabar) - wee
 
 [Tidigare år](https://github.com/NTIG-Helsingborg/.github/blob/main/TE4/projects.md)
