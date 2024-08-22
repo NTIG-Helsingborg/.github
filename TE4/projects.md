@@ -15,5 +15,6 @@
 - [TE4_23-24_Linda](https://github.com/NTIG-Helsingborg/TE4_23-24_Linda)
 - [TE4_23-24_MickeyEmail](https://github.com/NTIG-Helsingborg/TE4_23-24_MickeyEmail) - Skickar email till personer efter visst tidintervall
 - [TE4_23-24_APL-Bok](https://github.com/NTIG-Helsingborg/TE4_23-24_APL-Bok)
+- [TE4_23-24_HjalpEhab](https://github.com/NTIG-Helsingborg/TE4_23-24_HjalpEhab)
 - [TE4_23-24_ProjektLinn_rebuild](https://github.com/NTIG-Helsingborg/TE4_23-24_ProjektLinn_rebuild) - Repository för alla filer som används för skärmen
 - [TE4_23-24_Basecamp](https://github.com/NTIG-Helsingborg/TE4_23-24_Basecamp) - TE4 23/24
