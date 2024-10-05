@@ -1,6 +1,9 @@
 <!-- This file was automatically generated. Do not edit it directly. -->
 
 # TE4 projekt
+## 24/25
+- [TE4_24-25_League_Shop](https://github.com/NTIG-Helsingborg/TE4_24-25_League_Shop)
+- [TE4_24-25_BookStore](https://github.com/NTIG-Helsingborg/TE4_24-25_BookStore)
 ## 23/24
 - [TE4_23-24_Site](https://github.com/NTIG-Helsingborg/TE4_23-24_Site) - TE4 Site for 2023/2024 showing the years projects and students
 - [TE4_23-24_Wheeldeal](https://github.com/NTIG-Helsingborg/TE4_23-24_Wheeldeal)
