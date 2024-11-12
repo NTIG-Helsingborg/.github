@@ -5,6 +5,7 @@
 - [TE4_24-25_League_Shop](https://github.com/NTIG-Helsingborg/TE4_24-25_League_Shop)
 - [TE4_24-25_BookStore](https://github.com/NTIG-Helsingborg/TE4_24-25_BookStore)
 - [TE4_24-25_PokemonWeb](https://github.com/NTIG-Helsingborg/TE4_24-25_PokemonWeb)
+- [TE4_24-25_STWS](https://github.com/NTIG-Helsingborg/TE4_24-25_STWS)
 ## 23/24
 - [TE4_23-24_Site](https://github.com/NTIG-Helsingborg/TE4_23-24_Site) - TE4 Site for 2023/2024 showing the years projects and students
 - [TE4_23-24_Wheeldeal](https://github.com/NTIG-Helsingborg/TE4_23-24_Wheeldeal)
