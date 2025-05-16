@@ -9,5 +9,6 @@
 - [TE4_24-25_PokemonWeb](https://github.com/NTIG-Helsingborg/TE4_24-25_PokemonWeb)
 - [TE4_24-25_STWS](https://github.com/NTIG-Helsingborg/TE4_24-25_STWS)
 - [TE4_24-25_goblin_knight](https://github.com/NTIG-Helsingborg/TE4_24-25_goblin_knight)
+- [TE4_24-25_TrialsOfBooal](https://github.com/NTIG-Helsingborg/TE4_24-25_TrialsOfBooal)
 
 [Tidigare år](https://github.com/NTIG-Helsingborg/.github/blob/main/TE4/projects.md)
