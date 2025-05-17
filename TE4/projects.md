@@ -6,7 +6,7 @@
 - [TE4_24-25_BookStore](https://github.com/NTIG-Helsingborg/TE4_24-25_BookStore)
 - [TE4_24-25_PokemonWeb](https://github.com/NTIG-Helsingborg/TE4_24-25_PokemonWeb)
 - [TE4_24-25_STWS](https://github.com/NTIG-Helsingborg/TE4_24-25_STWS)
-- [TE4_24-25_goblin_knight](https://github.com/NTIG-Helsingborg/TE4_24-25_goblin_knight)
+- [TE4_24-25_goblinKnight](https://github.com/NTIG-Helsingborg/TE4_24-25_goblinKnight)
 - [TE4_24-25_TrialsOfBooal](https://github.com/NTIG-Helsingborg/TE4_24-25_TrialsOfBooal)
 ## 23/24
 - [TE4_23-24_Site](https://github.com/NTIG-Helsingborg/TE4_23-24_Site) - TE4 Site for 2023/2024 showing the years projects and students
