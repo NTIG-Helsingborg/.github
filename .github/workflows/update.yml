@@ -3,8 +3,8 @@ name: Build markdown files
 on:
     workflow_dispatch:
     schedule:
-        # Runs every midnight
-        - cron: "0 0 * * *"
+        # Runs on the 1st of every month (every ~30 days)
+        - cron: "0 0 1 * *"
 
 jobs:
     build:
@@ -23,6 +23,15 @@ jobs:
             - name: Run the generator
               run: bun start
               working-directory: ./.github/generator
+
+            # Update .keepalive with the current date so every run produces a
+            # commit and GitHub Actions is not disabled after 60 days of inactivity.
+            - name: Update keepalive timestamp
+              run: |
+                  echo "# This file is updated automatically by the scheduled workflow every 30 days." > .keepalive
+                  echo "# Its purpose is to ensure the repository has regular commit activity so that" >> .keepalive
+                  echo "# GitHub Actions is not automatically disabled after 60 days of inactivity." >> .keepalive
+                  echo "$(date -u +%Y-%m-%d)" >> .keepalive
 
             # Commit the changes
             - uses: EndBug/add-and-commit@v9
