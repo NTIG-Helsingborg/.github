@@ -3,8 +3,8 @@ name: Build markdown files
 on:
     workflow_dispatch:
     schedule:
-        # Runs on the 1st of every month (every ~30 days)
-        - cron: "0 0 1 * *"
+        # Runs every midnight
+        - cron: "0 0 * * *"
 
 jobs:
     build:
@@ -24,14 +24,26 @@ jobs:
               run: bun start
               working-directory: ./.github/generator
 
-            # Update .keepalive with the current date so every run produces a
-            # commit and GitHub Actions is not disabled after 60 days of inactivity.
+            # Update .keepalive only when the last update is at least 30 days old.
             - name: Update keepalive timestamp
               run: |
-                  echo "# This file is updated automatically by the scheduled workflow every 30 days." > .keepalive
-                  echo "# Its purpose is to ensure the repository has regular commit activity so that" >> .keepalive
-                  echo "# GitHub Actions is not automatically disabled after 60 days of inactivity." >> .keepalive
-                  echo "$(date -u +%Y-%m-%d)" >> .keepalive
+                  current_date="$(date -u +%Y-%m-%d)"
+                  current_epoch="$(date -ud "$current_date" +%s)"
+                  last_date="$(awk 'NF {last=$0} END {print last}' .keepalive 2>/dev/null || true)"
+                  last_epoch=0
+
+                  if [ -n "$last_date" ]; then
+                      last_epoch="$(date -ud "$last_date" +%s 2>/dev/null || echo 0)"
+                  fi
+
+                  if [ $((current_epoch - last_epoch)) -ge $((30 * 86400)) ]; then
+                      cat > .keepalive <<EOF
+# This file is updated automatically by the scheduled workflow every 30 days.
+# Its purpose is to ensure the repository has regular commit activity so that
+# GitHub Actions is not automatically disabled after 60 days of inactivity.
+$current_date
+EOF
+                  fi
 
             # Commit the changes
             - uses: EndBug/add-and-commit@v9
