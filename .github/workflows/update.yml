@@ -38,11 +38,11 @@ jobs:
 
                   if [ $((current_epoch - last_epoch)) -ge $((30 * 86400)) ]; then
                       cat > .keepalive <<EOF
-# This file is updated automatically by the scheduled workflow every 30 days.
-# Its purpose is to ensure the repository has regular commit activity so that
-# GitHub Actions is not automatically disabled after 60 days of inactivity.
-$current_date
-EOF
+                  # This file is updated automatically by the scheduled workflow every 30 days.
+                  # Its purpose is to ensure the repository has regular commit activity so that
+                  # GitHub Actions is not automatically disabled after 60 days of inactivity.
+                  $current_date
+                  EOF
                   fi
 
             # Commit the changes
