@@ -4,11 +4,8 @@
 # NTI Gymnasiet Helsingborg
 
 ## Årets TE4 projekt
-- [TE4_24-25_League_Shop](https://github.com/NTIG-Helsingborg/TE4_24-25_League_Shop)
-- [TE4_24-25_BookStore](https://github.com/NTIG-Helsingborg/TE4_24-25_BookStore)
-- [TE4_24-25_PokemonWeb](https://github.com/NTIG-Helsingborg/TE4_24-25_PokemonWeb)
-- [TE4_24-25_STWS](https://github.com/NTIG-Helsingborg/TE4_24-25_STWS)
-- [TE4_24-25_goblinKnight](https://github.com/NTIG-Helsingborg/TE4_24-25_goblinKnight)
-- [TE4_24-25_TrialsOfBooal](https://github.com/NTIG-Helsingborg/TE4_24-25_TrialsOfBooal)
+- [TE4_25-26_WebShop](https://github.com/NTIG-Helsingborg/TE4_25-26_WebShop) - Web project made in html, css and javaScript
+- [TE4_25-26_RoastBattles](https://github.com/NTIG-Helsingborg/TE4_25-26_RoastBattles) - Roast Battles is a street art-inspired web application that brings competitive roasting to life. Built with React and Vite, it lets you challenge friends or sharpen your skills solo in graffiti-styled roasting battles. Show off your wit while enjoying an immersive urban street art vibe.
+- [TE4_25-26_Back-To-Zero](https://github.com/NTIG-Helsingborg/TE4_25-26_Back-To-Zero) - A dark, Berserk-inspired 2D roguelike where your own blood is your greatest weapon. Your HP is your mana — cast spells, empower attacks, and harvest life-essence to survive as you confront undead beings in a dying world.
 
 [Tidigare år](https://github.com/NTIG-Helsingborg/.github/blob/main/TE4/projects.md)
