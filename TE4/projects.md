@@ -2,9 +2,12 @@
 
 # TE4 projekt
 ## 25/26
-- [TE4_25-26_WebShop](https://github.com/NTIG-Helsingborg/TE4_25-26_WebShop) - Web project made in html, css and javaScript
+- [TE4_25-26_Skolverket-transkribering](https://github.com/NTIG-Helsingborg/TE4_25-26_Skolverket-transkribering)
+- [TE4_25-26_Snacky](https://github.com/NTIG-Helsingborg/TE4_25-26_Snacky) - Web project made in html, css and javaScript
+- [TE4_25-26_coffeeWebshop](https://github.com/NTIG-Helsingborg/TE4_25-26_coffeeWebshop) - A Coffee Webshop project
+- [TE4_25-26_React-API](https://github.com/NTIG-Helsingborg/TE4_25-26_React-API)
+- [TE4_25-26_SteamDream](https://github.com/NTIG-Helsingborg/TE4_25-26_SteamDream)
 - [TE4_25-26_RoastBattles](https://github.com/NTIG-Helsingborg/TE4_25-26_RoastBattles) - Roast Battles is a street art-inspired web application that brings competitive roasting to life. Built with React and Vite, it lets you challenge friends or sharpen your skills solo in graffiti-styled roasting battles. Show off your wit while enjoying an immersive urban street art vibe.
-- [TE4_25-26_Back-To-Zero](https://github.com/NTIG-Helsingborg/TE4_25-26_Back-To-Zero) - A dark, Berserk-inspired 2D roguelike where your own blood is your greatest weapon. Your HP is your mana — cast spells, empower attacks, and harvest life-essence to survive as you confront undead beings in a dying world.
 ## 24/25
 - [TE4_24-25_League_Shop](https://github.com/NTIG-Helsingborg/TE4_24-25_League_Shop)
 - [TE4_24-25_BookStore](https://github.com/NTIG-Helsingborg/TE4_24-25_BookStore)
